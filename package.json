@@ -1,0 +1,21 @@
+{
+    "license": "MIT",
+    "version": "1.0.0",
+    "author": "ctf0",
+    "name": "vue-list-rendered",
+    "main": "src/index.js",
+    "description": "a vue v2 directive to check if last item in list was rendered",
+    "homepage": "https://github.com/ctf0/vue-list-rendered",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ctf0/vue-list-rendered.git"
+    },
+    "peerDependecies": {
+        "vue": "^2.0.0"
+    },
+    "keywords": [
+        "vue",
+        "directive",
+        "list render"
+    ]
+}
