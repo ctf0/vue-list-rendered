@@ -25,6 +25,8 @@ npm install vue-list-rendered --save
     ```
 
 - add `v-list-rendered="[index, list, callback]"` to your `v-for` element
+    + to debug the results add `:debug` argument ex.`v-list-rendered:debug="..."` then check your console.
+    <br>
 
     ```vue
     <template>
@@ -40,7 +42,7 @@ npm install vue-list-rendered --save
         export default {
             data() {
                 return {
-                    // ...
+                    blogList: [...]
                 }
             },
             methods: {
