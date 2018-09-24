@@ -53,3 +53,7 @@ npm install vue-list-rendered --save
         }
     </script>
     ```
+
+## Caveats
+
+- when new entry is added to the array, vue wont re-render the whole loop again "which is a good thing", instead it will only render this new item which means unless this new item comes at last in the loop, the callback won't fire.
