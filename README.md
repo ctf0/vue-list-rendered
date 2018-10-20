@@ -30,7 +30,7 @@ npm install vue-list-rendered --save
     + to debug the results add `:debug` argument ex.`v-list-rendered:debug="..."` then check your console.
     <br>
 
-    ```vue
+    ```html
     <template>
         <ul>
             <li v-for="(blog, index) in blogList" :key="blog"
